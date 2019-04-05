@@ -14,8 +14,12 @@ $(document).ready(function() {
 function convert(num) {
 if (num === 1) {
       console.log(" beep");
+  } if (num === 2) {
+        console.log(" boop");
+    } if (num === 3) {
+          console.log(" dave");
       }
-  else {
-    console.log(" " + num);
-  }
+        else {
+          console.log(" " + num);
+        }
 }
