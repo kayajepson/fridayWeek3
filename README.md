@@ -34,7 +34,7 @@ The number 32 should be replaced with "I'm sorry, Dave. I'm afraid I can't do th
 | The program replaces numbers that contain a 3: all digits are replaced (all digits) with "I'm sorry, Dave. I'm afraid I can't do that." | 3 | "I'm sorry, Dave. I'm afraid I can't do that." |
 | The program prioritizes 3's over 2's for these rules | 23 | "I'm sorry, Dave. I'm afraid I can't do that." |
 | The program prioritizes 2's over 1's for these rules | 12 | "Boop." |
-
+| The program reverses output when submitting with "reverse" button | 3 | "I'm sorry, Dave. I'm afraid I can't do that.", 2, 1, 0 |
 
 ## Known Bugs
 
