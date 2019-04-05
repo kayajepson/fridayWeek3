@@ -7,8 +7,8 @@ $(document).ready(function() {
     console.log(userName);
     var output = genOutput(userNumber);
     $("#result").text(output);
-
   });
+  
   $("#reverse").click(function() {
     event.preventDefault();
     var userNumber = parseInt($("input#numInput").val());
