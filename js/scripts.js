@@ -18,8 +18,7 @@ if (num.includes("3")) {
         return(" boop");
     } if (num.includes("1")) {
           return(" beep");
-      }
-        else {
+      } else {
           return(" " + num);
         }
 }
