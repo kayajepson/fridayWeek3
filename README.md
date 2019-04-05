@@ -6,16 +6,7 @@
 
 ## Description
 
-_{Create a web application that takes a number from a user and returns a range of numbers from 0 to the user inputted number with the following exceptions:
-
-Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
-Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"
-Numbers that contain a 3: all digits are replaced (all digits) with "I'm sorry, Dave. I'm afraid I can't do that."
-These exceptions are written from least to most important. The first exception should apply unless the second exception does, and the same with the second and third. So, for example, in your finished program,
-
-The number 13 should be replaced with "I'm sorry, Dave. I'm afraid I can't do that."
-The number 21 should be replaced with "Boop".
-The number 32 should be replaced with "I'm sorry, Dave. I'm afraid I can't do that."}_
+_{Create a web application that takes a number from a user and returns a range of numbers from 0 to the user inputted number with the exceptions listed in the specs below.}_
 
 ## Setup/Installation Requirements
 
@@ -30,7 +21,7 @@ The number 32 should be replaced with "I'm sorry, Dave. I'm afraid I can't do th
 | The program takes a number input from the user. | 6 | 6 |
 | The program returns a range of numbers from 0 to the user inputted number. | 2 | "0, 1, 2" |
 | The program replaces numbers that contain a 1: all digits are replaced (all digits) with "Beep!" | 1 | "beep" |
-| The program replaces numbers that contain a 2: all digits are replaced (all digits) with "Boop!" | 2 | "beep", "boop" |
+| The program replaces numbers that contain a 2: all digits are replaced (all digits) with "Boop!" | 2 | "boop" |
 | The program replaces numbers that contain a 3: all digits are replaced (all digits) with "I'm sorry, Dave. I'm afraid I can't do that." | 3 | "I'm sorry, Dave. I'm afraid I can't do that." |
 | The program prioritizes 3's over 2's for these rules | 23 | "I'm sorry, Dave. I'm afraid I can't do that." |
 | The program prioritizes 2's over 1's for these rules | 12 | "Boop." |
