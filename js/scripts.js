@@ -10,8 +10,8 @@ $(document).ready(function() {
   $("#reverse").click(function() {
     event.preventDefault();
     var userNumber = parseInt($("input#numInput").val());
-    var output = genOutputReverse(userNumber);
-    $("#result").text(output);
+    var output = genOutput(userNumber);
+    $("#result").text(output.reverse());
   });
 });
 
@@ -36,12 +36,4 @@ function genOutput(userNumber) {
     output.push(convert(i.toString()))
   };
   return(output);
-}
-
-function genOutputReverse(userNumber) {
-  var output = [];
-  for (var i = 0; i <= userNumber; i++) {
-    output.push(convert(i.toString()))
-  };
-  return(output.reverse());
 }
