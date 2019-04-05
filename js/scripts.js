@@ -7,7 +7,11 @@ $(document).ready(function() {
     $("#result").text(output);
 
   });
+  $("#reverse").click(function() {
+    alert( "test." );
+  });
 });
+
 
 //BACK END
 function convert(num) {
