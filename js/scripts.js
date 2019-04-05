@@ -11,11 +11,11 @@ $(document).ready(function() {
 
 //BACK END
 function convert(num) {
-if (num === 1) {
+if (num.includes("1")) {
       return(" beep");
-  } if (num === 2) {
+  } if (num.includes("2")) {
         return(" boop");
-    } if (num === 3) {
+    } if (num.includes("3")) {
           return(" dave");
       }
         else {
@@ -25,8 +25,9 @@ if (num === 1) {
 
 function genOutput(userNumber) {
   var output = [];
+  var userNumberAsString = userNumber.toString();
   for (var i = 0; i <= userNumber; i++) {
-    output.push(convert(i))
+    output.push(convert(userNumberAsString))
   };
   return(output);
 }
