@@ -11,12 +11,13 @@ $(document).ready(function() {
 
 //BACK END
 function convert(num) {
-if (num.includes("1")) {
-      return(" beep");
+var userName = $("input#nameInput").val();
+if (num.includes("3")) {
+      return(" I'm sorry, " + userName + ". I'm afraid I can't do that.");
   } if (num.includes("2")) {
         return(" boop");
-    } if (num.includes("3")) {
-          return(" dave");
+    } if (num.includes("1")) {
+          return(" beep");
       }
         else {
           return(" " + num);
