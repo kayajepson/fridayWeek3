@@ -5,10 +5,11 @@ body {
 
 #result {
   background-color: white;
-  padding: 25px;
+  padding: 15px;
   font-family: monospace;
   font-size: 14px;
   border-radius: 15px;
+  margin-top: 15px;
 }
 div.row3 {
   color: green;
