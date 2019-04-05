@@ -1,6 +1,6 @@
 # _Beep Boop_
 
-#### _Will  takes a number from a user and returns a range of numbers from 0 to the user inputted number with a few exceptions (see below). {04.05.19}_
+#### _Will  takes a number from a user and returns a range of numbers from 0 to the user inputted number with a few exceptions (see below). 04.05.19_
 
 #### By _**Kaya Jepson**_
 
