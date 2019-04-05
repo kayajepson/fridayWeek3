@@ -29,7 +29,11 @@ The number 32 should be replaced with "I'm sorry, Dave. I'm afraid I can't do th
 | ------------- |:-------------:| -----:|
 | The program takes a number input from the user. | 6 | 6 |
 | The program returns a range of numbers from 0 to the user inputted number. | 2 | "0, 1, 2" |
-| The program replaces all digits of a number. | 2 | "0, 1, 2" |
+| The program replaces numbers that contain a 1: all digits are replaced (all digits) with "Beep!" | 1 | "beep" |
+| The program replaces numbers that contain a 2: all digits are replaced (all digits) with "Boop!" | 2 | "beep", "boop" |
+| The program replaces numbers that contain a 3: all digits are replaced (all digits) with "I'm sorry, Dave. I'm afraid I can't do that." | 3 | "I'm sorry, Dave. I'm afraid I can't do that." |
+| The program prioritizes 3's over 2's for these rules | 23 | "I'm sorry, Dave. I'm afraid I can't do that." |
+| The program prioritizes 2's over 1's for these rules | 12 | "Boop." |
 
 
 ## Known Bugs
