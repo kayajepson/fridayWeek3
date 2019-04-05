@@ -25,9 +25,8 @@ if (num.includes("1")) {
 
 function genOutput(userNumber) {
   var output = [];
-  var userNumberAsString = userNumber.toString();
   for (var i = 0; i <= userNumber; i++) {
-    output.push(convert(userNumberAsString))
+    output.push(convert(i.toString()))
   };
   return(output);
 }
