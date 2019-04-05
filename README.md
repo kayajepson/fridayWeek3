@@ -6,7 +6,7 @@
 
 ## Description
 
-_{Create a web application that takes a number from a user and returns a range of numbers from 0 to the user inputted number with the exceptions listed in the specs below.}_
+_Create a web application that takes a number from a user and returns a range of numbers from 0 to the user inputted number with the exceptions listed in the specs below._
 
 ## Setup/Installation Requirements
 
