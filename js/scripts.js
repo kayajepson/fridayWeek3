@@ -3,9 +3,8 @@ $(document).ready(function() {
   $("form#userInput").submit(function(event) {
     event.preventDefault();
     var userNumber = parseInt($("input#numInput").val());
-    var output = convert(userNumber);
-    // var output = genOutput(userNumber);
-    // $("#result").text(output);
+    var output = genOutput(userNumber);
+    $("#result").text(output);
 
   });
 });
@@ -13,13 +12,21 @@ $(document).ready(function() {
 //BACK END
 function convert(num) {
 if (num === 1) {
-      console.log(" beep");
+      return(" beep");
   } if (num === 2) {
-        console.log(" boop");
+        return(" boop");
     } if (num === 3) {
-          console.log(" dave");
+          return(" dave");
       }
         else {
-          console.log(" " + num);
+          return(" " + num);
         }
+}
+
+function genOutput(userNumber) {
+  var output = [];
+  for (var i = 0; i <= userNumber; i++) {
+    output.push(convert(i))
+  };
+  return(output);
 }
