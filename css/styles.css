@@ -1,4 +1,14 @@
+body {
+  /* background-color: #bee2dc; */
+  background: url("../img/robot.jpeg");
+}
+
 #result {
-  font-size: 18px;
-  font-family: sans-serif;
+  background-color: white;
+  padding: 25px;
+  font-family: monospace;
+  font-size: 14px;
+}
+div.row3 {
+  color: green;
 }
